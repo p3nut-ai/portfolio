@@ -1,9 +1,7 @@
-body{
-  /* background-color: #1f1f1f; */
-  /* padding: 50px; */
-  /* padding-top: 200px; */
+*{
+  padding: 0;
+  margin: 0;
 }
-
 
 #greetings{
   text-align: left;
@@ -168,9 +166,14 @@ position: absolute;
   text-align: center;
   font-size: 50px;
 }
+#about_me_title{
+  padding-bottom: 84px;
+}
+
 .work_title{
     font-size: 50px;
     padding-bottom: 20px;
+        padding-top: 110px;
 }
 
 #electronics_title, #python_title,#skill_title{
@@ -200,7 +203,7 @@ margin-bottom: 100px;
 }
 
 svg{
-  height: 105px;
+  height: 78px;
 }
 
 svg:hover{
@@ -211,8 +214,89 @@ svg:hover{
   text-align: center;
 }
 .progress{
-  margin-top:41px;
+  margin-top:20px;
 }
 #skill_set_container{
   margin-bottom: 90px;
+}
+#profile_container{
+  width: 70%;
+  height: 371px;
+  margin-left: 92px;
+}
+#profile_desc{
+  font-size: 20px;
+  margin-top: 39px;
+}
+#download-btn{
+  margin-top: 20px;
+}
+
+.work-site{
+  text-decoration: none;
+  color: black;
+}
+.work-site:hover{
+  text-decoration: none;
+  color: black;
+}
+
+.skills_container{
+      margin-left: 97px;
+}
+
+@media only screen and (max-width: 600px) {
+  #about_me_container{
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  .container1{
+    height: 258px;
+  }
+  #cover_content_container{
+    display: none !important;
+  }
+  #profile_container{
+    margin-left: 39px;
+    width: 77%;
+        margin-top: -94px;
+  }
+  #about_me_title{
+    font-size: 28px;
+  }
+  #profile_desc{
+    font-size: 17px;
+    padding: 20px;
+  }
+  .work_title{
+    font-size: 24px;
+    text-align: center;
+    padding-top: 0;
+  }
+  #personal_projects_title{
+        font-size: 39px;
+  }
+  #electronics_title,#python_title{
+    font-size: 20px;
+  }
+  #electronics_banner{
+    margin-bottom: 0;
+  }
+  #repo_list_python{
+        padding-left: 50px;
+  }
+  #skill_title{
+    text-align: center !important;
+    font-size: 25px;
+  }
+  .skills_container{
+    margin-left: 0;
+  }
+  #works{
+    padding: 0;
+  }
+  #work{
+    width: 100%;
+    max-width: 100%;
+  }
 }
